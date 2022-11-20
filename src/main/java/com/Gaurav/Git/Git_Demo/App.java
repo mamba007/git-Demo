@@ -3,7 +3,7 @@ package com.Gaurav.Git.Git_Demo;
 public class App {
 	public void addData(String data) {
 		System.out.println("In a addData Method" + data);
-		if(data.equals("Gaurav")) {
+		if (data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Welcome");
 		}
 	}
